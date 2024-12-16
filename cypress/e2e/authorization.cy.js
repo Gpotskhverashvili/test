@@ -6,6 +6,7 @@ describe ('authorization',() => {
        cy.get('.autocomplete="username').type('testfrontmg')
        
        cy.get('.placeholder="Password"').type('$Heropicks1@')
+       cy.get("username").type('username')
 
     })
 
