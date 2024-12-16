@@ -3,5 +3,6 @@ describe('', () => {
 })
 
 it('test', () => {
-    cy.wait(2999)
+    cy.wait(123)
+    cy.wait(1234)
 });
